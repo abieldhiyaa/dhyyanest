@@ -52,9 +52,6 @@ export function Hero() {
           style={{ animationDelay: "0.45s" }}
         >
           {[
-            { k: "", v: "Pesanan Selesai" },
-            { k: "", v: "Lini Layanan" },
-            { k: "", v: "Respon Cepat" },
           ].map((s) => (
             <div key={s.v} className="text-center">
               <div className="font-display text-3xl text-foreground md:text-4xl">{s.k}</div>
